@@ -18,7 +18,7 @@ class HeadlineAdapter: RecyclerView.Adapter<HeadlineAdapter.HeadlineAdapterViewH
         fun bind(data: HeadlineNewsResponse.ArticlesItem) {
             binding.apply {
                 Glide.with(ivHeadline)
-                    .load(data.urlImage)
+                    .load(data.urlToImage)
                     .error(R.drawable.ic_launcher_background)
                     .into(ivHeadline)
                 tvHeadlineTitle.text = data.title

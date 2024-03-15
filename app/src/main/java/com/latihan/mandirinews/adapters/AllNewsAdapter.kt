@@ -20,7 +20,7 @@ class AllNewsAdapter: RecyclerView.Adapter<AllNewsAdapter.AllNewsAdapterViewHold
         fun bind(data: AllNewsResponse.ArticlesItem) {
             binding.apply {
                 Glide.with(ivAllNews)
-                    .load(data.urlImage)
+                    .load(data.urlToImage)
                     .error(R.drawable.ic_launcher_background)
                     .into(ivAllNews)
                 tvAllNewsTitle.text = data.title
