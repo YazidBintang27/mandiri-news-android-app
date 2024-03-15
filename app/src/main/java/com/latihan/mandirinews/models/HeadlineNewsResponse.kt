@@ -33,8 +33,8 @@ data class HeadlineNewsResponse (
         @field:SerializedName("url")
         val url: Any? = null,
 
-        @field:SerializedName("urlImage")
-        val urlImage: Any? = null,
+        @field:SerializedName("urlToImage")
+        val urlToImage: Any? = null,
 
         @field:SerializedName("publishedAt")
         val publishedAt: String? = null,

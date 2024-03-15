@@ -10,7 +10,7 @@ data class AllNewsResponse (
     val totalResult: Int? = null,
 
     @field:SerializedName("articles")
-    val articles: List<HeadlineNewsResponse.ArticlesItem?>? = null
+    val articles: List<ArticlesItem?>? = null
 ) {
     data class Source (
         @field:SerializedName("id")
@@ -33,8 +33,8 @@ data class AllNewsResponse (
         @field:SerializedName("url")
         val url: Any? = null,
 
-        @field:SerializedName("urlImage")
-        val urlImage: Any? = null,
+        @field:SerializedName("urlToImage")
+        val urlToImage: Any? = null,
 
         @field:SerializedName("publishedAt")
         val publishedAt: String? = null,
