@@ -8,15 +8,15 @@ import retrofit2.http.Query
 
 interface ApiServices {
 
-    @GET("headline-news")
+    @GET("top-headlines")
     fun getHeadlineNews(
         @Query("country") country: String?,
         @Query("apikey") apiKey: String?
     ): Call<HeadlineNewsResponse>
 
-    @GET("all-news")
+    @GET("everything")
     fun getAllNews(
-        @Query("country") country: String?,
+        @Query("q") q: String?,
         @Query("apikey") apiKey: String?
     ): Call<AllNewsResponse>
 
