@@ -15,9 +15,9 @@ class NewsRepositoryImpl: NewsRepository {
     }
 
     override fun requestAllNews(
-        country: String?, apiKey: String?
+        q: String?, apiKey: String?
     ): Call<AllNewsResponse> {
-        return ApiClient.getApiServices().getAllNews(country, apiKey)
+        return ApiClient.getApiServices().getAllNews(q, apiKey)
     }
 
 }

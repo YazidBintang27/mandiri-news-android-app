@@ -12,7 +12,7 @@ interface NewsRepository {
     ): Call<HeadlineNewsResponse>
 
     fun requestAllNews(
-        country: String?,
+        q: String?,
         apiKey: String?
     ): Call<AllNewsResponse>
 
