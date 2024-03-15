@@ -19,7 +19,6 @@
             android:layout_height="96dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@drawable/image6"
             android:scaleType="centerCrop"
             app:shapeAppearanceOverlay="@style/roundedImageView"/>
 
@@ -30,7 +29,7 @@
             android:layout_marginStart="12dp"
             android:layout_marginEnd="12dp"
             android:fontFamily="@font/inter_semibold"
-            android:textColor="@color/purple"
+            android:textColor="@color/blue"
             android:textSize="14sp"
             app:flow_maxElementsWrap="2"
             android:maxLines="3"
@@ -49,6 +48,7 @@
             android:textSize="12sp"
             app:layout_constraintStart_toStartOf="@+id/tv_all_news_title"
             app:layout_constraintBottom_toBottomOf="@+id/iv_all_news"
+            app:drawableStartCompat="@drawable/ic_person"
             tools:text="CNN Indonesia"/>
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -62,6 +62,7 @@
             android:textAlignment="textEnd"
             app:layout_constraintStart_toEndOf="@id/tv_all_news_author"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:drawableStartCompat="@drawable/ic_date"
             tools:text="27 Maret 2004"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

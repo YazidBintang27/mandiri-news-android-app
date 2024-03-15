@@ -7,7 +7,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     app:cardCornerRadius="20dp"
     app:cardElevation="8dp"
-    android:layout_margin="16dp">
+    android:layout_margin="12dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -23,8 +23,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
-            app:shapeAppearanceOverlay="@style/roundedImageView"
-            tools:src="@drawable/image6"/>
+            app:shapeAppearanceOverlay="@style/roundedImageView"/>
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tv_headline_title"
@@ -37,7 +36,7 @@
             android:maxLines="2"
             android:ellipsize="end"
             android:fontFamily="@font/inter_semibold"
-            android:textColor="@color/purple"
+            android:textColor="@color/blue"
             tools:text="Coba coba coba coba Coba coba coba coba Coba coba coba coba Coba coba coba cobaCoba coba coba coba Coba coba coba coba"/>
 
         <androidx.appcompat.widget.AppCompatTextView
