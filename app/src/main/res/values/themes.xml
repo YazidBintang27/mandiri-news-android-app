@@ -11,6 +11,6 @@
     <style name="roundedImageView" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">12dp</item>
-        <item name="color">@color/purple</item>
+        <item name="color">@color/blue</item>
     </style>
 </resources>
